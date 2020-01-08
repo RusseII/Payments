@@ -39,7 +39,13 @@ async function getSummaries(db, owner) {
   payments.forEach(charge => {
     charge.peopleToCharge.forEach(person => {
       const { name, amount } = person;
-      summary[name] ? (summary[name] += amount) : (summary[name] = amount);
+      console.log("a:", amount)
+      let amountAsNum = Number.parseFloat(amount)
+      let lowerName = name.toLowerCase()
+      if (amountAsNum) {
+        console.log("a2:", amountAsNum)
+      summary[lowerName] ? (summary[lowerName] += amountAsNum) : (summary[lowerName] = amountAsNum);
+      }
     });
   });
   return summary;
