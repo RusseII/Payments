@@ -1,4 +1,7 @@
-## `POST /payments`
+##API for Payments
+
+
+### `POST /payments`
 
 Data format: 
 
@@ -10,7 +13,7 @@ Data format:
     const resp = await fetch(`${url}/payments`, {method: 'POST', body: JSON.stringify(data}})
     }
 
-`GET /payments`
+### `GET /payments`
 
     const url = 'https://api.russell.work'
     const resp = await fetch(`${url}/payments`)
