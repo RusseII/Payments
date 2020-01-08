@@ -1,5 +1,6 @@
-##API for Payments
-
+## API for Payments
+[![api.russell.work/payments](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.russell.work%2Fserver_status%3Fbadge%3Dhttps%3A%2F%2Fapi.russell.work/payments)](https://api.russell.work/payments)
+[![api.russell.work/payments](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi.russell.work%2Fserver_status%3Fuptimes%3D1%26badge%3Dhttps%3A%2F%2Fapi.russell.work/payments)](https://api.russell.work/payments)
 
 ### `POST /payments`
 
